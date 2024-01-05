@@ -23,14 +23,14 @@ body{
 .app-main{
 
     width: 66rem;
-margin: 9rem auto;
-background: linear-gradient(135deg, #00feba, #5b548a);
-color: #fff;
-padding: 0rem;
-text-align: center;
-height: 13rem;
-border-radius: 2%;
-box-shadow: 3rem 3rem 3rem rgba(20, 47, 51, 0.8);
+    margin: 9rem auto;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    padding: 0rem;
+    text-align: center;
+    height: 13rem;
+    border-radius: 2%;
+    box-shadow: 3rem 3rem 3rem rgba(20, 47, 51, 0.8);
 
 }
 
@@ -178,6 +178,16 @@ background-color:#ffffff;
 
     }
 
+    .weather-icon{
+
+    
+
+        max-width: 23rem    ;
+    
+    
+    
+    }
+
 }
 
  
@@ -190,6 +200,16 @@ background-color:#ffffff;
 
     }
 
+    .weather-icon{
+
+    
+
+        max-width: 23rem;
+    
+    
+    
+    }
+
 }
 
 @media(max-width:754px) {
@@ -198,6 +218,15 @@ background-color:#ffffff;
 
         font-size:50%;
 
+    }
+    .weather-icon{
+
+    
+
+        max-width: 23rem;
+    
+    
+    
     }
 
 }
@@ -208,6 +237,15 @@ background-color:#ffffff;
 
         font-size:45%;
 
+    }
+    .weather-icon{
+
+    
+
+        max-width: 23rem;
+    
+    
+    
     }
 
 }
@@ -221,6 +259,15 @@ background-color:#ffffff;
         font-size:35%;
 
     }
+    .weather-icon{
+
+    
+
+        max-width: 23rem;
+    
+    
+    
+    }
 
 }
 
@@ -230,6 +277,15 @@ background-color:#ffffff;
 
         font-size:30%;
 
+    }
+    .weather-icon{
+
+    
+
+        max-width: 23rem;
+    
+    
+    
     }
 
 }
@@ -241,6 +297,15 @@ background-color:#ffffff;
         font-size:25%;
 
     }
+    .weather-icon{
+
+    
+
+        max-width: 23rem;
+    
+    
+    
+    }
 
 }
 
@@ -250,6 +315,15 @@ background-color:#ffffff;
 
         font-size:21%;
 
+    }
+    .weather-icon{
+
+    
+
+        max-width: 23rem;
+    
+    
+    
     }
 
 }
@@ -263,6 +337,15 @@ background-color:#ffffff;
         font-size:20%;
 
     }
+    .weather-icon{
+
+    
+
+        max-width: 23rem;
+    
+    
+    
+    }
 
 }
 
@@ -273,6 +356,15 @@ background-color:#ffffff;
         font-size:19%;
 
     }
+    .weather-icon{
+
+    
+
+        max-width: 23rem;
+    
+    
+    
+    }
 
 }
 
@@ -282,6 +374,15 @@ background-color:#ffffff;
 
         font-size:18%;
 
+    }
+    .weather-icon{
+
+    
+
+        max-width: 23rem;
+    
+    
+    
     }
 
 }
