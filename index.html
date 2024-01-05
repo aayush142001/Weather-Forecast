@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Weather Forecast</title>
+
+</head>
+
+<body>
+
+    <div class="app-main">
+
+        <div class="searchInputBox">
+
+            <input type="text" id="box" class="box" placeholder="Enter city to search" autocomplete="off">
+
+        </div>
+
+        <div class="error">
+            <p>Invalid city name</p>
+        </div>
+
+        <div class="weather-body">
+
+            <img alt="image" src="images/clouds.png" class="weather-icon">
+
+            <div class="location-details">
+
+                <div class="city" id="city">Patna, IN</div>
+
+                <div class="date" id="date">16 September,2021 (Thursday)</div>
+
+            </div>
+            
+
+
+            <div class="weather-status">
+
+                <div class="temp" id="temp">30&deg;c</div>
+
+                <div class="weather" id="weather">Sunny</div>
+
+                <div class="min-max" id="min-max">26&deg;c [min] / 30&deg;c [max]</div>
+
+                <div class="img"></div>
+
+            </div>
+
+
+
+        </div>
+
+        <script src="api.js"></script>
+
+</body>
+
+</html>
